@@ -1,0 +1,38 @@
+:root {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background: #f6f6f7;
+}
+
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.connections ul,
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.book-like::before {
+  content: "📖 ";
+}

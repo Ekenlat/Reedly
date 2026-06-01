@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reedly</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>Reedly</h1>
+        <p>Twitter-style social app for book readers with TikTok and Instagram sharing.</p>
+      </header>
+
+      <section aria-label="Connect external platforms" class="connections">
+        <h2>Connect readers</h2>
+        <ul>
+          <li><a href="https://www.tiktok.com" target="_blank" rel="noreferrer">Connect TikTok</a></li>
+          <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Connect Instagram</a></li>
+        </ul>
+      </section>
+
+      <section aria-label="Create post" class="composer">
+        <h2>Share what you're reading</h2>
+        <form id="post-form">
+          <label>
+            Book
+            <input id="book" name="book" required />
+          </label>
+          <label>
+            Review
+            <textarea id="review" name="review" required></textarea>
+          </label>
+          <label>
+            Video URL (optional)
+            <input id="videoUrl" name="videoUrl" type="url" />
+          </label>
+          <button type="submit">Post</button>
+        </form>
+      </section>
+
+      <section aria-label="Timeline">
+        <h2>Timeline</h2>
+        <ul id="timeline" class="timeline"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

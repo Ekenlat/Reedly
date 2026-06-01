@@ -1,0 +1,22 @@
+{
+  "name": "reedly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekenlat/Reedly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ekenlat/Reedly/issues"
+  },
+  "homepage": "https://github.com/Ekenlat/Reedly#readme"
+}
